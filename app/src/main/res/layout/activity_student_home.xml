@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Student Dashboard"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/btnViewBooks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Books"/>
+
+    <Button
+        android:id="@+id/btnMyIssuedBooks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="My Issued Books"
+        android:layout_marginTop="12dp"/>
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:layout_marginTop="14dp"/>
+</LinearLayout>
