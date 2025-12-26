@@ -19,7 +19,11 @@ public class StudentHomeActivity extends AppCompatActivity {
         Button btnViewBooks = findViewById(R.id.btnViewBooks);
         Button btnMyIssuedBooks = findViewById(R.id.btnMyIssuedBooks);
         Button btnLogout = findViewById(R.id.btnLogout);
+        Button btnHistory = findViewById(R.id.btnHistory);
 
+        btnHistory.setOnClickListener(v ->
+                startActivity(new Intent(StudentHomeActivity.this, StudentHistoryActivity.class))
+        );
         btnViewBooks.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

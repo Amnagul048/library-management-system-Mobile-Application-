@@ -18,6 +18,7 @@ public class LibrarianHomeActivity extends AppCompatActivity {
 
         Button btnAddBook = findViewById(R.id.btnAddBook);
         Button btnViewBooks = findViewById(R.id.btnViewBooks);
+        Button btnIssuedBooks = findViewById(R.id.btnIssuedBooks);
         Button btnLogout = findViewById(R.id.btnLogout);
 
         btnAddBook.setOnClickListener(new View.OnClickListener() {
@@ -33,6 +34,13 @@ public class LibrarianHomeActivity extends AppCompatActivity {
                 Intent i = new Intent(LibrarianHomeActivity.this, ViewBooksActivity.class);
                 i.putExtra("isLibrarian", true);
                 startActivity(i);
+            }
+        });
+
+        btnIssuedBooks.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(LibrarianHomeActivity.this, LibrarianIssuedBooksActivity.class));
             }
         });
 
