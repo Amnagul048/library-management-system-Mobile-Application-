@@ -15,18 +15,24 @@
     <Button
         android:id="@+id/btnMonthlyIssued"
         android:text="Monthly Issued Books"
+        android:background="@drawable/btn_primary"
+        android:textColor="@android:color/white"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
     <Button
         android:id="@+id/btnMonthlyReturned"
         android:text="Monthly Returned Books"
+        android:background="@drawable/btn_primary"
+        android:textColor="@android:color/white"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"/>
 
     <Button
         android:id="@+id/btnOverdue"
+        android:background="@drawable/btn_primary"
+        android:textColor="@android:color/white"
         android:text="Overdue Books"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
