@@ -15,18 +15,24 @@
 
     <Button
         android:id="@+id/btnViewBooks"
+        android:background="@drawable/btn_primary"
+        android:textColor="@android:color/white"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="View Books"/>
 
     <Button
         android:id="@+id/btnMyIssuedBooks"
+        android:background="@drawable/btn_primary"
+        android:textColor="@android:color/white"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="My Issued Books"
         android:layout_marginTop="12dp"/>
     <Button
         android:id="@+id/btnHistory"
+        android:background="@drawable/btn_primary"
+        android:textColor="@android:color/white"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="My History"
@@ -35,6 +41,8 @@
 
     <Button
         android:id="@+id/btnLogout"
+        android:background="@drawable/btn_primary"
+        android:textColor="@android:color/white"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Logout"
